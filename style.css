@@ -1,0 +1,240 @@
+body {
+    box-sizing: border-box;
+    font-family: 'TT Lakes';
+}
+
+.main {
+    width: 320px;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.main__header {
+    background-color: #fff;
+    margin-left: 16px;
+}
+
+.header__text {
+    font-size: 16px;
+    color: #7E7E82;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.main-main {
+    padding-top: 16px;
+    background-color: #F2F2F2;
+}
+
+.more{
+    font-family: 'TT Lakes';
+
+}
+
+
+
+
+
+
+.swiper-slide {
+    display: flex;
+    width: 240px;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-bottom: 66px;
+    margin-top: 16px;
+    min-width: 0;
+}
+
+.swiper-slide a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF3E79;
+    font-weight: bolder;
+
+    
+}
+
+.header__text {
+    margin: 16px;
+}
+
+.swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    margin-top: 500;
+}
+
+
+.btn {
+    padding: 0;
+    margin: 0;
+    border: 0ch;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.arrows{
+    margin-right: 17px;
+    font-size: 16px;
+}
+
+.more {}
+
+.show-more {}
+
+.hide-more {}
+
+.btn:hover {
+    color: #7E7E82;
+
+}
+
+.button2 {
+    display: none;
+}
+
+@media (min-width: 320px) {
+    .main {
+        width: 100%;
+    }
+
+    .show-more-cont {
+        display: none;
+    }
+
+    .main-main {
+        padding-left: 16px;
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .swiper-slide {
+        margin: 0;
+        padding: 0;
+        flex: 0 0 33%;
+    }
+
+    .swiper-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .show-more-cont {
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .main-main {
+        padding-left: 24px;
+    }
+
+    .main__header {
+        margin-left: 24px;
+    }
+
+    .act-but {
+        display: block;
+    }
+
+    .btn-show {
+        display: none;
+    }
+}
+
+@media (min-width: 1120px){
+    .btn{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .swiper-slide{
+        flex: 1 0 24%;
+    }
+
+}
+
+
+
+/* ---------------------ЛОГОТИПЫ---------------------- */
+
+.lenovo {
+    width: 108px;
+    height: 32px;
+    margin: 20px 0 20px 16px;
+
+}
+
+.samsung {
+    width: 116px;
+    height: 38px;
+    margin: 16px 0 16px 16px;
+}
+
+.apple {
+    width: 44px;
+    height: 44px;
+    margin: 12px 0 12px 16px;
+}
+
+.viewsonic {
+    width: 128px;
+    height: 21px;
+    margin: 25px 0 25px 14px;
+}
+
+.bosch {
+    width: 128px;
+    height: 26px;
+    margin: 21px 0 21px 16px;
+}
+
+.hp {
+    width: 52px;
+    height: 52px;
+    margin: 10px 0 10px 10px;
+}
+
+.acer {
+    width: 94px;
+    height: 24px;
+    margin: 24px 0 24px 16px;
+}
+
+.sony {
+    width: 128px;
+    height: 25px;
+    margin: 23px 0 23px 14px;
+}
